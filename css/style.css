@@ -1,0 +1,11 @@
+body{text-align:center;background:#333;font-family:arial,sans-serif}
+h1{color:#fff}
+.shop,.inventario{display:inline-block;background:#fafafa;border-radius:3px;width:250px;border:1px solid #c0c0c0;height:200px;padding:10px;vertical-align:top;text-align:left;margin-bottom:10px;}
+.shop .item,.inventario .item{cursor:pointer;width:64px;height:64px;background:#6f6f6f;border:2px solid transparent;display:inline-block;padding:0;margin:2px;z-index:9999999;}
+.shop .item:hover,.inventario .item:hover{border:2px solid #ffa500;background:#333}
+.shop .item img,.inventario .item img{z-index:-1}
+.shop .item .costo,.inventario .item .costo{font-weight:bold;font-size:14px}
+.inventario .item .costo{display:none}
+.alert{display:block;padding:10px;color:#ffa500;font-style:normal;font-size:14px}
+.info{text-align:center;display:block;font-size:18px;color:#fff;}
+.info .oro{font-weight:bold}

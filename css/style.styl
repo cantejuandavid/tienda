@@ -1,0 +1,54 @@
+body
+	text-align center
+	background #33
+	font-family arial, sans-serif
+h1
+	color #fff
+	
+.shop,.inventario
+	display inline-block
+	background #fafafa
+	border-radius 3px
+	width 250px
+	border 1px solid #C0C0C0
+	height 200px					
+	padding 10px
+	vertical-align top
+	text-align left		
+	margin-bottom 10px			
+	.item
+		cursor pointer
+		width 64px
+		height 64px
+		background #6F6F6F 	
+		border 2px solid transparent
+		display inline-block	
+		padding 0	
+		margin 2px
+		z-index 9999999
+		&:hover
+			border 2px solid orange				
+			background #333
+		img
+			z-index -1
+		.costo
+			font-weight bold
+			font-size 14px
+.inventario					
+	.item						
+		.costo
+			display none
+.alert
+	display block
+	padding 10px
+	color orange					
+	font-style normal
+	font-size 14px
+.info
+	text-align center					
+	display block
+	font-size 18px
+	color #fff
+	.oro
+		font-weight bold
+
